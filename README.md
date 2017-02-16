@@ -28,7 +28,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://gph.is/2llsEyr' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a  href="http://gph.is/2llsEyr"><img src='http://gph.is/2llsEyr' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+
 
 GIF created with giphy.
 
