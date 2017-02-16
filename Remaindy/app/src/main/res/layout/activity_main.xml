@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.freelancer.remaindy.MainActivity">
+
+<ListView
+    android:layout_marginTop="6dp"
+    android:id="@+id/todolist"
+    android:dividerHeight="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/create"
+            app:rippleColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/ic_create_white_48dp"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"
+            />
+    </FrameLayout>
+</RelativeLayout>
